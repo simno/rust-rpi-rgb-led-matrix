@@ -1,4 +1,4 @@
 [submodule "rpi-led-matrix-sys/cpp-library"]
 	path = rpi-led-matrix-sys/cpp-library
-	url = git@github.com:hzeller/rpi-rgb-led-matrix.git
+	url = https://github.com/simno/rpi-rgb-led-matrix.git
 	branch = update-vertical-mapper
