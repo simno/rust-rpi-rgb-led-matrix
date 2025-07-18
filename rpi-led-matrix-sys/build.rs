@@ -8,6 +8,8 @@
 use std::process::Command;
 
 fn main() {
+    println!("RUNNING BUILD SCRIPT");
+
     // Early out if we're stubbing the C api ourselves
     if std::env::var("CARGO_FEATURE_C_STUBS").is_ok() {
         std::process::exit(0);
