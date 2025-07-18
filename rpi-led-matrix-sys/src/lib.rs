@@ -70,7 +70,7 @@ pub struct CLedRuntimeOptions {
 }
 
 #[cfg_attr(not(feature = "c-stubs"), link(name = "rgbmatrixsys"))]
-extern "C" {
+unsafe extern "C" {
     // unused C functions omitted
     pub fn led_matrix_create_from_options_and_rt_options(
         opts: *mut CLedMatrixOptions,

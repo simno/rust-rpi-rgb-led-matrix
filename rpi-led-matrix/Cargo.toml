@@ -11,7 +11,7 @@ repository = "https://github.com/rust-rpi-led-matrix/rust-rpi-rgb-led-matrix"
 homepage = "https://docs.rs/rpi-led-matrix/"
 license = "GPL-3.0"
 readme = "README.md"
-edition = "2021"
+edition = "2024"
 keywords = ["rpi", "raspberry-pi", "led-matrix"]
 categories = ["embedded"]
 
